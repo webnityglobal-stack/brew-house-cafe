@@ -1,0 +1,1 @@
+export const CAFE_WHATSAPP_NUMBER = "910000000000";

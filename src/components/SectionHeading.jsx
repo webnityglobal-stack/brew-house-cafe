@@ -1,0 +1,1 @@
+export default function SectionHeading({eyebrow,title,copy,light=false,center=true}){return <div className={`${center?'text-center':''} ${light?'text-cream':''}`}><p className="eyebrow">{eyebrow}</p><h2 className="section-title mt-3">{title}</h2>{copy&&<p className={`mx-auto mt-4 max-w-2xl text-[17px] leading-7 ${light?'text-cream/65':'text-ink/65'}`}>{copy}</p>}</div>}
